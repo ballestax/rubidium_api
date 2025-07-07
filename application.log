@@ -1,0 +1,42 @@
+2025-07-07T16:10:04.010-05:00  INFO 16048 --- [main] com.rubidium.api.ApiApplication          : Starting ApiApplication using Java 21.0.7 with PID 16048 (C:\Dev\rubidium\target\classes started by comunicaciones in C:\Dev\rubidium)
+2025-07-07T16:10:04.012-05:00  INFO 16048 --- [main] com.rubidium.api.ApiApplication          : No active profile set, falling back to 1 default profile: "default"
+2025-07-07T16:10:04.312-05:00  INFO 16048 --- [main] com.rubidium.api.ApiApplication          : Started ApiApplication in 0.586 seconds (process running for 0.785)
+2025-07-07T16:13:14.416-05:00  INFO 6184 --- [main] com.rubidium.api.ApiApplication          : Starting ApiApplication using Java 21.0.7 with PID 6184 (C:\Dev\rubidium\target\classes started by comunicaciones in C:\Dev\rubidium)
+2025-07-07T16:13:14.417-05:00  INFO 6184 --- [main] com.rubidium.api.ApiApplication          : No active profile set, falling back to 1 default profile: "default"
+2025-07-07T16:13:14.682-05:00  INFO 6184 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-07T16:13:14.693-05:00  INFO 6184 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 JPA repository interfaces.
+2025-07-07T16:13:15.149-05:00  INFO 6184 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-07T16:13:15.166-05:00  INFO 6184 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-07-07T16:13:16.838-05:00  INFO 6184 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@bd3eff4
+2025-07-07T16:13:16.839-05:00  INFO 6184 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-07-07T16:13:17.609-05:00  INFO 6184 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-07T16:13:17.715-05:00  INFO 6184 --- [main] com.rubidium.api.ApiApplication          : Started ApiApplication in 3.576 seconds (process running for 3.792)
+2025-07-07T16:13:17.724-05:00  INFO 6184 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-07T16:13:17.727-05:00  INFO 6184 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-07-07T16:13:18.078-05:00  INFO 6184 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-07-07T16:35:21.914-05:00  INFO 19232 --- [main] com.rubidium.api.ApiApplication          : Starting ApiApplication using Java 21.0.7 with PID 19232 (C:\Dev\rubidium\target\classes started by comunicaciones in C:\Dev\rubidium)
+2025-07-07T16:35:21.916-05:00  INFO 19232 --- [main] com.rubidium.api.ApiApplication          : No active profile set, falling back to 1 default profile: "default"
+2025-07-07T16:35:22.180-05:00  INFO 19232 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-07T16:35:22.192-05:00  INFO 19232 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 0 JPA repository interfaces.
+2025-07-07T16:35:22.694-05:00  INFO 19232 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-07T16:35:22.727-05:00  INFO 19232 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-07-07T16:35:24.374-05:00  INFO 19232 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@66ec4409
+2025-07-07T16:35:24.375-05:00  INFO 19232 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-07-07T16:35:30.219-05:00  INFO 19232 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-07T16:35:30.321-05:00  INFO 19232 --- [main] com.rubidium.api.ApiApplication          : Started ApiApplication in 8.693 seconds (process running for 8.936)
+2025-07-07T16:35:30.326-05:00  INFO 19232 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-07T16:35:30.329-05:00  INFO 19232 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-07-07T16:35:31.316-05:00  INFO 19232 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-07-07T16:35:33.326-05:00  INFO 28236 --- [main] com.rubidium.api.ApiApplication          : Starting ApiApplication using Java 21.0.7 with PID 28236 (C:\Dev\rubidium\target\classes started by comunicaciones in C:\Dev\rubidium)
+2025-07-07T16:35:33.328-05:00  INFO 28236 --- [main] com.rubidium.api.ApiApplication          : No active profile set, falling back to 1 default profile: "default"
+2025-07-07T16:35:33.608-05:00  INFO 28236 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-07T16:35:33.619-05:00  INFO 28236 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 JPA repository interfaces.
+2025-07-07T16:35:34.057-05:00  INFO 28236 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-07T16:35:34.073-05:00  INFO 28236 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-07-07T16:35:35.530-05:00  INFO 28236 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2506e949
+2025-07-07T16:35:35.532-05:00  INFO 28236 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-07-07T16:35:41.345-05:00  INFO 28236 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-07T16:35:41.448-05:00  INFO 28236 --- [main] com.rubidium.api.ApiApplication          : Started ApiApplication in 8.397 seconds (process running for 8.618)
+2025-07-07T16:35:41.455-05:00  INFO 28236 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-07T16:35:41.460-05:00  INFO 28236 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-07-07T16:35:42.541-05:00  INFO 28236 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
