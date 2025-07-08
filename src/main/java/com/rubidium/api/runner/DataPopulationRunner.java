@@ -22,8 +22,11 @@ public class DataPopulationRunner  implements CommandLineRunner {
         // Specify the number of fake users to generate and populate the database
         
         logger.info("Starting faker runner...");
-        int numberOfDataToGenerate = 12;
+        int numberOfDataToGenerate = 2;
         dataPopulationService.populateCategories(numberOfDataToGenerate);
+
+        numberOfDataToGenerate = 10;
+        dataPopulationService.populateProducts(numberOfDataToGenerate);
         logger.info("Ended faker runner...");
     }
     

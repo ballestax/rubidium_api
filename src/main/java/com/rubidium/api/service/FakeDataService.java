@@ -15,17 +15,17 @@ public class FakeDataService {
 
     public Category generateFakeCategory(){
         Category category = new Category();
-        category.setName(faker.food().dish());
+        category.setName(faker.commerce().department());
         category.setZOrder(1);
         return category;
     }
 
     public Product generateFakeProduct(){
         Product product = new Product();
-        product.setName(faker.food().fruit());
-        product.setCode(faker.code().asin());
+        product.setName(faker.commerce().productName());
+        product.setCode(faker.code().ean13());
         product.setDescription(faker.lorem().sentence(15));
-        product.setPrice(new BigDecimal(5000));
+        product.setPrice(BigDecimal.valueOf(Double.parseDouble(faker.commerce().price().replace(',', '.'))));
         product.setVariable(false);
         product.setEnabled(true);
         return product;
