@@ -1,15 +1,13 @@
 services:
-  # Servicio para tu aplicación Spring Boot
   app:
-    build: . # Construye la imagen de la aplicación usando el Dockerfile en el directorio actual
+    build: . # Construye la imagen de la aplicación 
     container_name: rubidium-api-container
     ports:
       - "8081:8081" # Mapea el puerto 8081 del host al puerto 8081 del contenedor
     environment:
-      # --- AJUSTA ESTAS VARIABLES PARA TU BASE DE DATOS EXTERNA ---
-      SPRING_DATASOURCE_URL: jdbc:postgresql://dpg-d1m1u7bipnbc73fja7q0-a.oregon-postgres.render.com:5432/rubidium_sagn
-      SPRING_DATASOURCE_USERNAME: lrod
-      SPRING_DATASOURCE_PASSWORD: qMBslAfFkwLF35pLCwYWgBZFtsNlXtQn
-      SPRING_JPA_HIBERNATE_DDL_AUTO: update # O 'none', 'create', 'create-drop' según tu estrategia
+      # ------------------------ DB --------------------------------
+      SPRING_DATASOURCE_URL: ${SPRING_DATASOURCE_URL} 
+      SPRING_DATASOURCE_USERNAME: ${SPRING_DATASOURCE_USERNAME} 
+      SPRING_DATASOURCE_PASSWORD: ${SPRING_DATASOURCE_PASSWORD} 
+      SPRING_JPA_HIBERNATE_DDL_AUTO: update
       # ------------------------------------------------------------
-    # No hay 'depends_on' ni 'networks' para la DB, ya que es externa
