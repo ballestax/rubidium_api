@@ -18,5 +18,4 @@ public class ProductFullDto {
     private String code;
     private List<Presentation> presentations;
 
-
 }
