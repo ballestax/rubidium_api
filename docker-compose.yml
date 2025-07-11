@@ -6,8 +6,8 @@ services:
       - "8081:8081" # Mapea el puerto 8081 del host al puerto 8081 del contenedor
     environment:
       # ------------------------ DB --------------------------------
-      SPRING_DATASOURCE_URL: ${secrets.SPRING_DATASOURCE_URL} 
-      SPRING_DATASOURCE_USERNAME: ${secrets.SPRING_DATASOURCE_USERNAME} 
-      SPRING_DATASOURCE_PASSWORD: ${secrets.SPRING_DATASOURCE_PASSWORD} 
+      SPRING_DATASOURCE_URL: ${SPRING_DATASOURCE_URL} 
+      SPRING_DATASOURCE_USERNAME: ${SPRING_DATASOURCE_USERNAME} 
+      SPRING_DATASOURCE_PASSWORD: ${SPRING_DATASOURCE_PASSWORD} 
       SPRING_JPA_HIBERNATE_DDL_AUTO: update
       # ------------------------------------------------------------
